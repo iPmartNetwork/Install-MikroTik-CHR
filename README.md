@@ -35,13 +35,13 @@ ip route list | grep default | cut -d' ' -f 3
 For MikroTik 6.48.6
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR-on-VPS/main/mik-711.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik-711.sh)"
 ```
 
 For MikroTik 7.10.2
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR-on-VPS/main/mik7132.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7132.sh)"
 ```
 
 After install be sure to turn off the server and turn on again
