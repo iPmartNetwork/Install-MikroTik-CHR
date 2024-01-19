@@ -5,13 +5,13 @@ Easy way for install Mikrotik’s Cloud Hosted Router on any Cloud VM
 
 ```bash
   1:
-  دسترسی به vnc سرور مجازی یا ssh
+  VPS with VNC access (Preferably Ubuntu > 20.04)
   2:
-  این اطلاعات شبکه مورد نیاز است:
-   آدرس IP - Net Mask - IP Gateway
+  This network information is required:
+  IP Address - Net Mask - IP Gateway
   3:
-در برخی موارد باید درایور Virtio را غیرفعال کنید!
-
+  In some cases you need to disable the Virtio driver!
+```
 
 ## Find information manually
 Find storage name
