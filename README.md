@@ -12,6 +12,7 @@ Easy way for install Mikrotik’s Cloud Hosted Router on any Cloud VM
   3:
 در برخی موارد باید درایور Virtio را غیرفعال کنید!
 
+
 ## Find information manually
 Find storage name
 ```bash
