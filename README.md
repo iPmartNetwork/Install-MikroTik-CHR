@@ -32,13 +32,13 @@ ip route list | grep default | cut -d' ' -f 3
 ```
 ## Installation
 
-For MikroTik 6.48.6
+For MikroTik 7.11
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik-711.sh)"
 ```
 
-For MikroTik 7.10.2
+For MikroTik 7.13.2
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7132.sh)"
