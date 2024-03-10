@@ -32,16 +32,22 @@ ip route list | grep default | cut -d' ' -f 3
 ```
 ## Installation
 
-For MikroTik 7.11
+For MikroTik 7.10
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik-711.sh)"
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik-710.sh)"
 ```
 
 For MikroTik 7.13.2
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7132.sh)"
+```
+
+For MikroTik 7.14
+
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik714.sh)"
 ```
 
 After install be sure to turn off the server and turn on again
