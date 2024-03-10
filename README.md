@@ -35,7 +35,7 @@ ip route list | grep default | cut -d' ' -f 3
 For MikroTik 7.10
 
 ```bash
-  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik-710.sh)"
+    bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik710.sh)"
 ```
 
 For MikroTik 7.13.2
