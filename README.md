@@ -50,6 +50,13 @@ For MikroTik 7.14
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik714.sh)"
 ```
 
+For MikroTik 7.14
+
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7142.sh)"
+```
+
+
 After install be sure to turn off the server and turn on again
 ## Post installation settings
 
