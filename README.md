@@ -50,10 +50,17 @@ For MikroTik 7.14
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik714.sh)"
 ```
 
-For MikroTik 7.14
+For MikroTik 7.14.2
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7142.sh)"
+```
+
+
+For MikroTik 7.14.3
+
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7143.sh)"
 ```
 
 
