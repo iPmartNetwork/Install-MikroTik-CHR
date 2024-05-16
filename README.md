@@ -64,6 +64,11 @@ For MikroTik 7.14.3
 ```
 
 
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7143ARM64.sh)"
+```
+
+
 After install be sure to turn off the server and turn on again
 ## Post installation settings
 
