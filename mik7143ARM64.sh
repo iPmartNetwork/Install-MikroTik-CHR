@@ -44,8 +44,6 @@ echo s > /proc/sysrq-trigger
 echo "Sleep 10 seconds"
 #/usr/bin/sleep 10
 read -t 10 -u 1
-# perform an immediate OS reboot similar to the RESET button (without synchronising and unmounting file systems)
-echo b > /proc/sysrq-trigger
 echo "
 ____________________________________________________________________________________
         ____                             _     _                                     
@@ -56,3 +54,5 @@ _/___/________/_/__/_(___(_/_____(_ __/___|/____(___ _(_ __|/_|/__(___/_/_____/_
                                                                                      
 "
 echo "Ok, reboot"
+# perform an immediate OS reboot similar to the RESET button (without synchronising and unmounting file systems)
+echo b > /proc/sysrq-trigger
