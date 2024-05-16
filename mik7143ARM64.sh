@@ -25,7 +25,6 @@ GATEWAY=`ip route list | grep default | cut -d' ' -f 3`
 #VERSIONCHR=7.10.2
 VERSIONCHR=7.14.3
  
-apt update
 wget -4 https://download.mikrotik.com/routeros/$VERSIONCHR/chr-$VERSIONCHR.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33571840 chr.img /mnt
