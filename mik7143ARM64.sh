@@ -26,16 +26,12 @@ GATEWAY=`ip route list | grep default | cut -d' ' -f 3`
 VERSIONCHR=7.14.3
  
 apt update
-apt install -y pwgen coreutils unzip
 wget -4 https://download.mikrotik.com/routeros/$VERSIONCHR/chr-$VERSIONCHR.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33571840 chr.img /mnt
-echo "Username: admin"
-echo "Password: admin"
 echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where name=ether1]" > /mnt/rw/autorun.scr
 echo "/ip route add gateway=$GATEWAY" >> /mnt/rw/autorun.scr
 echo "/ip service disable telnet" >> /mnt/rw/autorun.scr
-echo "/user set 0 name=admin password=admin" >> /mnt/rw/autorun.scr
 echo "/ip dns set server=8.8.8.8,1.1.1.1" >> /mnt/rw/autorun.scr
 # remount all mounted filesystems to read-only mode
 echo u > /proc/sysrq-trigger
