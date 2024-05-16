@@ -63,6 +63,7 @@ For MikroTik 7.14.3
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7143.sh)"
 ```
 
+For MikroTik 7.14.3 ARM64
 
 ```bash
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7143ARM64.sh)"
