@@ -69,6 +69,13 @@ For MikroTik 7.14.3 ARM64
   bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/ARM64.sh)"
 ```
 
+For MikroTik 7.16.2
+
+```bash
+  bash -c "$(curl -L https://raw.githubusercontent.com/ipmartnetwork/Install-MikroTik-CHR/main/mik7162.sh)"
+```
+
+
 
 After install be sure to turn off the server and turn on again
 ## Post installation settings
